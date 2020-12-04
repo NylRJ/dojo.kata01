@@ -1,6 +1,6 @@
-using System;
 using Assessment.SuperMarketReceipt.model;
 using Xunit;
+
 namespace Assessment.SuperMarketReceipt.Tests
 {
     public class ShoppingCartTests
@@ -17,6 +17,8 @@ namespace Assessment.SuperMarketReceipt.Tests
 
         }
 
+
+
         [Fact]
         public void deveTerPelomenosUmProdutoDuranteCheckout()
         {
@@ -29,15 +31,29 @@ namespace Assessment.SuperMarketReceipt.Tests
 
         }
 
+
+
         [Fact]
-        public void deveSerCapazDeVerDentroDoCarrinho()
+        public void deveSerCapazDeEmitireReciboDePreco()
         {
             var cart = new Cart();
             var product = new Product("Apple", 2);
             cart.AddItem(product, 2);
 
-            Assert.Equal(1, cart.Products.Count);
+            Assert.Equal(@"Apple 2 * 2 = 4 Total: 4", Receipt.Print(cart));
 
         }
+
+        [Fact(Skip = "Not Implemented")]
+        public void deveSerCapazDeEmitireReciboDePrecoComDesconto()
+        {
+            var cart = new Cart();
+            var product = new Product("Apple", 2);
+            cart.AddItem(product, 2);
+
+            Assert.Equal(@"Apple 2 * 2 = 4 Apple -50% -2 Total: 4", Receipt.Print(cart));
+
+        }
+
     }
 }

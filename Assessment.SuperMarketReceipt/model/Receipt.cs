@@ -13,10 +13,11 @@ namespace Assessment.SuperMarketReceipt.model
             var builder = new StringBuilder();
             foreach (var (p, q) in cart.Products)
             {
-                builder.AppendLine($"{p.Name} {q} * {p.Price} = {q * p.Price}");
+                builder.Append($"{p.Name} {q} * {p.Price} = {q * p.Price} ");
+
             }
 
-            builder.AppendLine($"Total: {cart.Total}");
+            builder.Append($"Total: {cart.Total}");
             return builder.ToString();
         }
     }
