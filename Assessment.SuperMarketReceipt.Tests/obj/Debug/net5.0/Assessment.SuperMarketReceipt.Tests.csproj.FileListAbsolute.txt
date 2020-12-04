@@ -100,3 +100,5 @@ d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\obj\D
 d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\obj\Debug\net5.0\ref\Assessment.SuperMarketReceipt.Tests.dll
 d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\obj\Debug\net5.0\Assessment.SuperMarketReceipt.Tests.pdb
 d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\obj\Debug\net5.0\Assessment.SuperMarketReceipt.Tests.genruntimeconfig.cache
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\bin\Debug\net5.0\Castle.Core.dll
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt.Tests\bin\Debug\net5.0\NSubstitute.dll

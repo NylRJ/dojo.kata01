@@ -4,7 +4,7 @@ namespace Assessment.SuperMarketReceipt.model.order.OrderAggregate
     {
 
         int GetUnits();
-        
+        Price GetUnitPrice();        
         
     }
 }

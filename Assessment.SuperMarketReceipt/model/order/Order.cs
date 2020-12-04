@@ -1,21 +1,27 @@
-using Grocery.Domain.AggregatesModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Assessment.SuperMarketReceipt.model.order.OrderAggregate;
+using Assessment.SuperMarketReceipt.model.Pricing.Aggregate;
+using Assessment.SuperMarketReceipt.model.product;
+using Assessment.SuperMarketReceipt.model.valueObject;
 
 namespace Assessment.SuperMarketReceipt.model.order
 {
-    public class Order
+    public class Order : Entity<Guid>, IAggregateRoot
     {
-        
+
         private readonly List<OrderItem> _orderItems;
         private readonly IPricingStrategyFactory _pricingStrategyFactory;
 
         /// <summary>
-        /// Gets a readonly collection of <see cref="OrderItem"/> of the current order.
+        /// Obtém uma coleção somente leitura de <see cref = "OrderItem" /> do pedido atual.
         /// </summary>
         public IReadOnlyCollection<OrderItem> OrderItems => _orderItems;
 
 
         /// <summary>
-        /// Creates a new <see cref="Order"/> instance.
+        /// Cria uma nova instância <see cref = "Order" />.
         /// </summary>
         public Order(Guid id, IPricingStrategyFactory pricingStrategyFactory) : base(id)
         {
@@ -25,7 +31,7 @@ namespace Assessment.SuperMarketReceipt.model.order
 
 
         /// <summary>
-        /// Adds a <see cref="Product"/> into the OrderItem with one or several <paramref name="units"/>.
+        /// Adiciona um <see cref = "Product" /> ao OrderItem com um ou vários <paramref name = "units" />.
         /// </summary>
         /// <param name="product"></param>
         /// <param name="units"></param>
@@ -48,7 +54,7 @@ namespace Assessment.SuperMarketReceipt.model.order
 
 
         /// <summary>
-        /// Gets the total price of the current order.
+        /// Obtém o preço total do pedido atual.
         /// </summary>
         /// <returns>A <see cref="Price"/> object</returns>
         public Price GetTotalPrice()
