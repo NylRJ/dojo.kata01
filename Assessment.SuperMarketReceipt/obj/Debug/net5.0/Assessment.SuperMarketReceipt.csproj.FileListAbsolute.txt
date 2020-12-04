@@ -1,0 +1,12 @@
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.csprojAssemblyReference.cache
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.GeneratedMSBuildEditorConfig.editorconfig
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.AssemblyInfoInputs.cache
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.AssemblyInfo.cs
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.csproj.CoreCompileInputs.cache
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\bin\Debug\net5.0\Assessment.SuperMarketReceipt.deps.json
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\bin\Debug\net5.0\Assessment.SuperMarketReceipt.dll
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\bin\Debug\net5.0\ref\Assessment.SuperMarketReceipt.dll
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\bin\Debug\net5.0\Assessment.SuperMarketReceipt.pdb
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.dll
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\ref\Assessment.SuperMarketReceipt.dll
+d:\2020.3\Refatorando\AT\Entrega AT_RF\Assessment.SuperMarketReceipt\obj\Debug\net5.0\Assessment.SuperMarketReceipt.pdb
