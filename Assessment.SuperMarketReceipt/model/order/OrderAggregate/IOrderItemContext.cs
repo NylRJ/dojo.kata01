@@ -1,7 +1,10 @@
 namespace Assessment.SuperMarketReceipt.model.order.OrderAggregate
 {
-    public class IOrderItemContext
+    public interface IOrderItemContext
     {
+
+        int GetUnits();
+        
         
     }
 }
