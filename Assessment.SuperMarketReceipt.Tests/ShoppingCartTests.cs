@@ -12,11 +12,8 @@ namespace Assessment.SuperMarketReceipt.Tests
             var product = new Product("Apple", 2);
             cart.AddItem(product, 1);
             cart.AddItem(product, 1);
-
             Assert.Equal(1, cart.products.Count);
             Assert.Equal(2, cart.products[product]);
-
-
 
         }
 
@@ -27,7 +24,19 @@ namespace Assessment.SuperMarketReceipt.Tests
             var product = new Product("Apple", 2);
             cart.AddItem(product, 2);
 
-            Assert.Equal(4, cart.Checkout());
+            Assert.Equal(4, cart.Total);
+
+
+        }
+
+        [Fact]
+        public void deveSerCapazDeVerDentroDoCarrinho()
+        {
+            var cart = new Cart();
+            var product = new Product("Apple", 2);
+            cart.AddItem(product, 2);
+
+            Assert.Equal(1, cart.Products.Count);
 
         }
     }
