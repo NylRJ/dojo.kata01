@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assessment.SuperMarketReceipt.model.valueObject;
-
+using Assessment.SuperMarketReceipt.domain.valueObject;
 
 namespace Assessment.SuperMarketReceipt.model
 {

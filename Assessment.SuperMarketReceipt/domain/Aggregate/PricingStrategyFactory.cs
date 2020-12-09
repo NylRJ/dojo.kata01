@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assessment.SuperMarketReceipt.model.Pricing.Aggregate
+namespace Assessment.SuperMarketReceipt.domain.Aggregate
 {
     public class PricingStrategyFactory : IPricingStrategyFactory
     {

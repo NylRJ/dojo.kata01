@@ -1,7 +1,7 @@
 ﻿using Assessment.SuperMarketReceipt.model.order.OrderAggregate;
 
 
-namespace Assessment.SuperMarketReceipt.model.Pricing.Aggregate
+namespace Assessment.SuperMarketReceipt.domain.Aggregate
 {
     public class CompositeLowestPricingStrategy : CompositePricingStrategy
     {

@@ -1,7 +1,8 @@
 ﻿using System;
-using Assessment.SuperMarketReceipt.model.valueObject;
+using Assessment.SuperMarketReceipt.domain.valueObject;
 
-namespace Assessment.SuperMarketReceipt.model.Pricing.Aggregate
+
+namespace Assessment.SuperMarketReceipt.domain.Aggregate
 {
     public class VolumePricingRule : Entity<Guid>, IAggregateRoot
     {

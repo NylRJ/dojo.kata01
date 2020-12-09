@@ -1,11 +1,12 @@
 ﻿using System.Globalization;
+using Assessment.SuperMarketReceipt.model;
 
-namespace Assessment.SuperMarketReceipt.model
+namespace Assessment.SuperMarketReceipt.domain
 {
     public class Price : Money
     {
         /// <summary>
-        /// Creates a new <see cref="Price"/> instance.
+        /// Cria uma nova instância <see cref = "Price" />.
         /// </summary>
         /// <param name="value"></param>
         public Price(decimal value) : base(value)

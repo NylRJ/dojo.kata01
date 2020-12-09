@@ -1,4 +1,4 @@
-namespace Assessment.SuperMarketReceipt.model.valueObject
+namespace Assessment.SuperMarketReceipt.domain.valueObject
 {
     public interface IAggregateRoot
     {
