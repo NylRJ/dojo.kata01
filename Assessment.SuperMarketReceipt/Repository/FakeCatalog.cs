@@ -11,14 +11,14 @@ namespace SupermarketReceipt.Repository
         public void AddProduct(Product product, double price)
         {
             if (price <= 0.0) {
-                throw new System.Exception("Fala ao adicionar produto");
+                throw new System.Exception("Erro ao adicionar produto");
             }
             _products.Add(product.Name, product);
             _prices.Add(product.Name, price);
         }
 
         public double GetUnitPrice(Product product)
-        {//Refatorado
+        {
             return _prices[product.Name];
         }
     }

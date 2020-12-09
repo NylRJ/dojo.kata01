@@ -20,12 +20,13 @@ namespace Assessment.SuperMarketReceipt
             _offers[product] = new Offer(offerType, product, argument);
         }
 
+        //Refatc
         public Receipt ChecksOutArticlesFrom(ShoppingCart theCart)
         {
             var receipt = new Receipt();
             var productQuantities = theCart.GetItems();
             foreach (var productQuantity in productQuantities)
-            {//Refatorado
+            {
                 var unitPrice = _catalog.GetUnitPrice(productQuantity.Product);
                 receipt.AddProduct(productQuantity, unitPrice);
             }

@@ -32,8 +32,9 @@ namespace Assessment.SuperMarketReceipt.domain
 
     public class ProductQuantity
     {
+        //refact
         public ProductQuantity(Product product, double quantity)
-        {//Refatorado
+        {
             Product = product;
             Quantity = quantity;
         }

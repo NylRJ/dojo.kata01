@@ -9,7 +9,7 @@ namespace Assessment.SuperMarketReceipt.Tests
     public class SupermarketTest
     {
         [Fact]
-        public void TenPercentDiscount()
+        public void DeveTerDezPorcentoDeDescont()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
@@ -40,13 +40,13 @@ namespace Assessment.SuperMarketReceipt.Tests
 
         //Feitos pelo aluno:
         [Fact]
-        public void FiveForAmountTests()
+        public void DeveTerCincoPorMontanteTests()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
             var toothbrush = new Product("toothbrush", ProductUnit.Each);
             catalog.AddProduct(toothbrush, 0.99);
-            
+
             var cart = new ShoppingCart();
             cart.AddItem(toothbrush, 7);
 
@@ -67,7 +67,7 @@ namespace Assessment.SuperMarketReceipt.Tests
         }
 
         [Fact]
-        public void ThreeForTwoTests()
+        public void DeveTerTresPorDios()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
@@ -94,7 +94,7 @@ namespace Assessment.SuperMarketReceipt.Tests
         }
 
         [Fact]
-        public void ThreeForTwoNotApplyedTests()
+        public void TresPorDoisNaoAplicável()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
@@ -122,7 +122,7 @@ namespace Assessment.SuperMarketReceipt.Tests
         }
 
         [Fact]
-        public void TwoForAmountTests()
+        public void DeveTerDoisPeloAmount()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
@@ -149,7 +149,7 @@ namespace Assessment.SuperMarketReceipt.Tests
         }
 
         [Fact]
-        public void AddProductAndValueTests()
+        public void AdicionarProdutoEvalor()
         {
             // ARRANGE
             SupermarketCatalog catalog = new FakeCatalog();
@@ -162,7 +162,7 @@ namespace Assessment.SuperMarketReceipt.Tests
             // ASSERT
             Assert.Throws<Exception>(() => catalog.AddProduct(toothbrush, 0));
             Assert.Equal(10.0, catalog.GetUnitPrice(apples));
-            
+
         }
     }
 }

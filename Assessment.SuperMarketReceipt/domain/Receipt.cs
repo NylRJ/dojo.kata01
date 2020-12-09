@@ -15,8 +15,9 @@ namespace Assessment.SuperMarketReceipt.domain
             return total;
         }
         
+        //refact
         public void AddProduct(ProductQuantity productQuantity, double unitPrice)
-        {//Refatorado 
+        {
             var product = productQuantity.Product;
             var quantity = productQuantity.Quantity;
             var totalPrice = quantity * unitPrice;
@@ -41,8 +42,10 @@ namespace Assessment.SuperMarketReceipt.domain
 
     public class ReceiptItem
     {
+
+        //Refatc
         public ReceiptItem(Product product, double quantity, double price, double totalPrice)
-        {//Refatorado
+        {
             Product = product;
             Quantity = quantity;
             Price = price;
